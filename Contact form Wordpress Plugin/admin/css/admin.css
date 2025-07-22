@@ -1,0 +1,67 @@
+/* Admin Styles for Custom Contact Form */
+.ccf-shortcode-info {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.ccf-shortcode-info h3 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.ccf-shortcode-info code {
+    background: #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Submissions table styling */
+.wp-list-table .column-cb {
+    width: 2.2em;
+}
+
+.wp-list-table th,
+.wp-list-table td {
+    padding: 8px 10px;
+}
+
+/* Settings page styling */
+.form-table th {
+    width: 200px;
+}
+
+.form-table .regular-text {
+    width: 25em;
+}
+
+.form-table .large-text {
+    width: 25em;
+}
+
+/* Admin notices */
+.notice.ccf-notice {
+    border-left-color: #0073aa;
+}
+
+.notice.ccf-notice .dashicons {
+    color: #0073aa;
+    margin-right: 5px;
+}
+
+/* Responsive admin styles */
+@media screen and (max-width: 782px) {
+    .form-table .regular-text,
+    .form-table .large-text {
+        width: 100%;
+    }
+    
+    .ccf-shortcode-info {
+        padding: 15px;
+    }
+}
